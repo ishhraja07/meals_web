@@ -6,14 +6,22 @@ const Home: FC = () => {
   return (
     <main>
       {/* Heading with inline styles (typed using React.CSSProperties) */}
-      <h1 style={{ color: 'white', textAlign: 'center' } as React.CSSProperties}>
+      <h1
+        style={{ color: "white", textAlign: "center" } as React.CSSProperties}
+      >
         Time to get started!
       </h1>
 
       {/* Paragraphs containing Next.js Link components */}
-      <p><Link href="/meals">Meals</Link></p>
-      <p><Link href="/meals/share">Meals</Link></p>
-      <p><Link href="/community">Meals</Link></p>
+      <p>
+        <Link href="/meals">Meals</Link>
+      </p>
+      <p>
+        <Link href="/meals/share">Share Meal</Link>
+      </p>
+      <p>
+        <Link href="/community">Community</Link>
+      </p>
     </main>
   );
 };
