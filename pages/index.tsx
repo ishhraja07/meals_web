@@ -1,12 +1,14 @@
 import { FC } from "react"; // Importing React's Functional Component type
 import Link from "next/link"; // Importing Next.js's Link component for navigation
 import classes from './page.module.css';
+import ImageSlideshow from "@/components/main-components/images/image-slideshow";
 // Define the Home component as a Functional Component (FC)
 const Home: FC = () => {
   return (
     <>
     <header className={classes.header}>
       <div className={classes.slideshow}>
+        <ImageSlideshow></ImageSlideshow>
       </div>
       <div>
           <div className={classes.hero}>

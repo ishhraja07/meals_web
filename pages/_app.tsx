@@ -1,8 +1,8 @@
 // pages/_app.tsx
-import MainHeader from '@/components/main-header'; // Import the header component
+import MainHeader from '@/components/main-components/main-header'; // Import the header component
 import '../styles/globals.css'; // Import global CSS
 import { AppProps } from 'next/app'; // Import Next.js's AppProps type
-import MainHeaderBackground from '@/components/main-header-background';
+import MainHeaderBackground from '@/components/main-components/main-header-background';
 
 export default function MyApp({ Component, pageProps }: AppProps) {
   return (
