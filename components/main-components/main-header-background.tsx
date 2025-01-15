@@ -1,4 +1,3 @@
-import { FunctionComponent } from "react";
 import classes from "./main-header-background.module.css";
 
 const MainHeaderBackground: React.FC = () => {

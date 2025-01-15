@@ -1,6 +1,6 @@
 // pages/_document.tsx
 import { Html, Head, Main, NextScript } from 'next/document';
-import { DocumentProps, DocumentContext } from 'next/document'; // Optional: If you need custom behavior
+
 
 export default function Document() {
   return (

@@ -4,7 +4,6 @@ import classes from './main-header.module.css';
 import logoImg from '@/assets/logo.png';
 import Image from 'next/image';
 import MainHeaderBackground from './main-header-background';
-import { usePathname } from 'next/navigation';
 import NavLink from './nav-link';
 const MainHeader: React.FC = () => {
   return (
